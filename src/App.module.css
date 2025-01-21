@@ -1,0 +1,48 @@
+ .App {
+  width: 400px;
+  background-color: #1bbb93;
+  color: white;
+  padding: 10px;
+}
+
+.inputGroup {
+  @apply flex flex-col gap-1;
+}
+
+.inputGroup > label {
+  @apply dark:text-gray-400 text-lg tracking-wider mt-1 font-bold;
+}
+.inputGroup>input[type='text'],
+.inputGroup>input[type='password'],
+.inputGroup>input[type='email'],
+.inputGroup>input[type='number'],
+.inputGroup>input[type='url'],
+.inputGroup>input[type='date'],
+.inputGroup>input[type='datetime-local'],
+.inputGroup>input[type='month'],
+.inputGroup>input[type='week'],
+.inputGroup>input[type='time'],
+.inputGroup>input[type='search'],
+.inputGroup>input[type='tel'],
+.inputGroup>input[type='checkbox'],
+.inputGroup>input[type='radio'],
+.inputGroup>select,
+.inputGroup>select[multiple],
+.inputGroup>textarea,
+.input {
+  @apply  block w-full rounded-md h-8 text-lg tracking-wider bg-gray-50 border-gray-400 shadow text-slate-8 px-2
+    focus:border-gray-500 focus:bg-white focus:ring-2 focus:ring-secondary focus:text-gray-700 dark:bg-gray-800
+    dark:border-gray-600 dark:focus:border-gray-500 dark:focus:bg-gray-900 dark:focus:ring-secondary-light dark:text-gray-200;
+}
+
+.header {
+  @apply flex flex-col items-center text-2xl font-bold;
+}
+
+.submitButton {
+  @apply bg-cyan-800 hover:bg-cyan-600 text-white font-bold py-2 px-4 rounded mb-2 w-full;
+}
+
+.flipCurrency {
+  @apply text-white rounded my-2 w-full bg-gray-8 hover:bg-gray-6 py-2;
+}
