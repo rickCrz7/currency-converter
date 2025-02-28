@@ -1,5 +1,11 @@
 {
-    "eslint.validate": ["vue", "javascript", "typescript"],
+    "eslint.validate": [
+        "solid",
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
         "source.fixAll.stylelint": true
