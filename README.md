@@ -29,9 +29,9 @@ A Chrome extension that seamlessly converts currency values. Built with **SolidJ
     ```bash
     npm install
     ```
-4. Run Project:
+4. Build Project:
     ```bash
-    npm dev
+    npm run build
     ```
 5. Load the extension in Chrome:
     - Open chrome://extensions in your browser.
