@@ -27,11 +27,11 @@ A Chrome extension that seamlessly converts currency values. Built with **SolidJ
     ```
 3. Install dependencies:
     ```bash
-    npm install
+    pnpm install
     ```
 4. Build Project:
     ```bash
-    npm run build
+    pnpm run build
     ```
 5. Load the extension in Chrome:
     - Open chrome://extensions in your browser.
