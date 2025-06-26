@@ -4,7 +4,6 @@ A Chrome extension that seamlessly converts currency values. Built with **SolidJ
 
 ## Features
 
-- Automatically identifies and converts currency values on web pages.
 - Supports multiple currencies with up-to-date exchange rates from trusted APIs.
 - Customizable settings to choose your preferred currency.
 - Lightweight and fast, leveraging the power of SolidJS for a smooth user experience.
